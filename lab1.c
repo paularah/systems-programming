@@ -31,7 +31,7 @@ void exercise1(){
 }
 
 void exercise2(){
-    int digitCount(int num) {
+    int digitCount(int num){
         long long n = (long)num;
         int count = 0;
         while (n != 0) {
@@ -57,12 +57,16 @@ void exercise2(){
     for (int i = 0; i < strlen(userInputString); i++){
         final += userInputString[i] - '0';
     }
-    // printf("The sum of the digits of your input is  %d ", final);
+    printf("The sum of the digits of your input is  %d ", final);
+}
+
+void exercise3(int num){
+
 }
 
 void main(){
-    exercise1();
-    exercise2();
+    // exercise1();
+    // exercise2();
 }
 
 
